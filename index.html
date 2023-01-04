@@ -21,6 +21,13 @@
             <input type="radio" id="expensive" name="price" value="$$$">
             <label for="price">$$$</label>
         </fieldset>
+        <fieldset>
+            <!--Title-->
+            <legend>Distance(mi):</legend>
+            <!--Actual Choices-->
+            <input type="range" id="distance" name="distanceRange" min="5" max="50" value="10" oninput="this.form.distanceInput.value=this.value">
+            <input type="number" id="distance" name="distanceInput" min="5" max="50" value="10" oninput="this.form.distanceRange.value=this.value">
+        </fieldset>
     </form>
 </body>
 </html>
