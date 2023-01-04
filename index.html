@@ -25,8 +25,51 @@
             <!--Title-->
             <legend>Distance(mi):</legend>
             <!--Actual Choices-->
+            <!--might show ranges on side of slider and change them to simply "close" and "far"-->
             <input type="range" id="distance" name="distanceRange" min="5" max="50" value="10" oninput="this.form.distanceInput.value=this.value">
             <input type="number" id="distance" name="distanceInput" min="5" max="50" value="10" oninput="this.form.distanceRange.value=this.value">
+        </fieldset>
+        <fieldset>
+            <!--Title-->
+            <legend>Style:</legend>
+            <!--Actual Choices-->
+            <input type="radio" id="non_sitdown" name="style" value="non_sitdown">
+            <label for="style">Non Sit-Down</label>
+            <input type="radio" id="sitdown" name="style" value="sitdown">
+            <label for="style">Sit-Down</label>
+            <input type="radio" id="either" name="style" value="either">
+            <label for="style">Either</label>
+        </fieldset>
+        <fieldset>
+            <!--Title-->
+            <legend>Type:</legend>
+            <!--Actual Choices-->
+            <input type="checkbox" id="american" name="type" value="american">
+            <label for="style">American</label>
+            <input type="checkbox" id="bbq" name="type" value="bbq">
+            <label for="style">BBQ</label>
+            <input type="checkbox" id="chinese" name="type" value="chinese">
+            <label for="style">Chinese</label>
+            <input type="checkbox" id="french" name="type" value="french">
+            <label for="style">French</label>
+            <input type="checkbox" id="burger" name="type" value="burger">
+            <label for="style">Burger</label>
+            <input type="checkbox" id="indian" name="type" value="indian">
+            <label for="style">Indian</label>
+            <input type="checkbox" id="japanese" name="type" value="japanese">
+            <label for="style">Japanese</label>
+            <input type="checkbox" id="mexican" name="type" value="mexican">
+            <label for="style">Mexican</label>
+            <input type="checkbox" id="pizza" name="type" value="pizza">
+            <label for="style">Pizza</label>
+            <input type="checkbox" id="seafood" name="type" value="seafood">
+            <label for="style">Seafood</label>
+            <input type="checkbox" id="steak" name="type" value="steak">
+            <label for="style">Steak</label>
+            <input type="checkbox" id="sushi" name="type" value="sushi">
+            <label for="style">Sushi</label>
+            <input type="checkbox" id="thai" name="type" value="thai">
+            <label for="style">Thai</label>
         </fieldset>
     </form>
 </body>
