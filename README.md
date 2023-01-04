@@ -1,0 +1,2 @@
+# Food Decider
+This is a small website made to help a user decide where to eat based off factors like Distance, Price, and Type of food.  The user goes through a short quiz to determine the best resturant(s) according to their selected preferences.
